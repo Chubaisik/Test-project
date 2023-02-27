@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Форма обратной связи</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main_image">
+        <img src="/images/photo.png" alt="Красивый_Дом" class="main_image" />
+      </div>
+      <div class="main_form">
+        <h2 class="form_name">Оформить заявку</h2>
+        <input type="text" class="text_name" placeholder="Default"/>
+        <input type="text" class="phone_number" placeholder="+7 (___) ___-__-__"/>
+        <div class="button_form">
+          <button class="btn">Отправить</button>
+          <div class="button_text">
+            Нажимая на кнопку, вы даете свое согласие на обработку персональных
+            данных
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/app.js"></script>
+  </body>
 </html>
